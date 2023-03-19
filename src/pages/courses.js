@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "./courses.css";
 import "./Modal.css";
 import { FaCartPlus } from "react-icons/fa";
@@ -46,7 +46,7 @@ const CardGrid = () => {
 
         if (clone) {
           // n.onClick = function () {
-          if (n.length == 1) {
+          if (n.length === 1) {
             console.log("cloneeee");
             select.classList.toggle("display");
           }
