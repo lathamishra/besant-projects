@@ -98,6 +98,7 @@ const CardGrid = () => {
           <div className="column">
             <div className="card">
               <img
+                alt="js"
                 height="100px"
                 width="100px"
                 src="https://static.javatpoint.com/images/javascript/javascript_logo.png"
@@ -115,6 +116,7 @@ const CardGrid = () => {
           <div className="column">
             <div className="card">
               <img
+                alt="html"
                 height="100px"
                 width="100px"
                 src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
@@ -132,6 +134,7 @@ const CardGrid = () => {
           <div className="column">
             <div className="card">
               <img
+                alt="css"
                 height="100px"
                 width="100px"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
@@ -149,6 +152,7 @@ const CardGrid = () => {
           <div className="column">
             <div className="card">
               <img
+                alt="java"
                 height="100px"
                 width="100px"
                 src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
